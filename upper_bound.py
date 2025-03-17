@@ -11,7 +11,6 @@ def upper_bound(arr,target):
     return ans
             
 
-
 arr=[1,7,3,4,5,9,2,8,6]
 target=6
 print(upper_bound(arr,target))
