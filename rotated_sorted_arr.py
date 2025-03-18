@@ -4,7 +4,7 @@ def search_rotated_sorted(arr,target):
         if arr[i]==target:
             return i
     return -1
-arr=[6,5,4,1,2,3]
+arr=[4,5,6,1,2,3]
 target=5
 print(search_rotated_sorted(arr,target))
 #Optimal approach
@@ -24,6 +24,6 @@ def search_rotated_sorted(arr,target):
             high=mid-1
     return -1
 
-arr=[6,5,4,1,2,3]
-target=20
+arr=[4,5,6,1,2,3]
+target=2
 print(search_rotated_sorted(arr,target))
