@@ -15,3 +15,13 @@ for i in range(0,len(arr)):
             subarr.append(arr[k])
         subarrays.append(subarr)
 print(subarrays)
+
+####
+a=[3,8,9,35,67]
+n=len(a)
+res=[]
+for i in range(n):
+    for j in range(i+1,n+1):
+        res.append(a[i:j])
+
+print(res)
